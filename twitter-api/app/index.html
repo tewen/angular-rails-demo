@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Public API</title>
+
+    <link rel="stylesheet"
+          href="assets/style.css">
+</head>
+<body ng-app="twitterapi">
+<h4>TWITTER LITE</h4>
+
+<div ng-controller="controllers.View">
+    <form name="form">
+        <textarea placeholder="Your tweet here..."
+                  ng-model="request.tweet"
+                  required></textarea>
+        <input placeholder="Comma separated, auto tags..."
+               ng-model="request.commaSeparatedAutoTags">
+    </form>
+    <button ng-click="onTweet($event, form.$valid)">TWEET</button>
+</div>
+
+<script type="text/javascript"
+        src="/bower_components/lodash/dist/lodash.compat.js"></script>
+<script type="text/javascript"
+        src="/bower_components/oauth.io/oauth.js"></script>
+<script type="text/javascript"
+        src="/bower_components/neosavvy-javascript-core/neosavvy-javascript-core.js"></script>
+<script type="text/javascript"
+        src="/bower_components/angular/angular.js"></script>
+<script type="text/javascript"
+        src="/bower_components/angular-base64/angular-base64.js"></script>
+<script type="text/javascript"
+        src="/app/twitter-api.js"></script>
+<script type="text/javascript"
+        src="/app/services/api.js"></script>
+<script type="text/javascript"
+        src="/app/services/transformer/api-request.js"></script>
+<script type="text/javascript"
+        src="/app/controllers/view.js"></script>
+</body>
+</html>

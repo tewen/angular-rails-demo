@@ -1,0 +1,24 @@
+{
+  "name": "ns-jasmine-testing",
+  "version": "0.0.0",
+  "description": "Jasmine testing #1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "karma": "~0.10.4",
+    "karma-jasmine": "~0.1.3",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-ng-html2js-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.1",
+    "phantomjs": "~1.9.2-5"
+  }
+}

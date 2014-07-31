@@ -1,0 +1,26 @@
+textarea, input, button {
+    float: left;
+    clear: both;
+}
+
+textarea, input {
+    width: 600px;
+    font-size: 20px;
+}
+
+input {
+    width: 600px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+}
+
+.ng-dirty.ng-invalid {
+    border-color: red;
+}

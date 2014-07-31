@@ -1,0 +1,24 @@
+{
+  "name": "public-api",
+  "version": "0.0.0",
+  "authors": [
+    "Trevor Ewen <tewen@neosavvy.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "1.0.8",
+    "angular-resource": "1.0.8",
+    "angular": "1.0.8",
+    "jquery": "2.0.3",
+    "neosavvy-javascript-angular-core": "0.1.4",
+    "oauth.io": "*",
+    "angular-base64": "~2.0.0"
+  }
+}

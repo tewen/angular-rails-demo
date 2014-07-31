@@ -6,8 +6,8 @@ describe("services.Api", function () {
             'twitterapi.transformers', {
             $http: jasmine.createSpy('$http')
         });
-        inject(function ($injector) {
-            $http = $injector.get('$http');
+        inject(function ($injector, _$http_) {
+            $http = _$http_;
             $http.andReturn({success: function (fn) {
                 return fn();
             }});

@@ -13,9 +13,9 @@
     "tests"
   ],
   "dependencies": {
-    "angular-mocks": "1.0.8",
-    "angular-resource": "1.0.8",
-    "angular": "1.0.8",
+    "angular-mocks": "1.2.4",
+    "angular-resource": "1.2.4",
+    "angular": "1.2.4",
     "jquery": "2.0.3",
     "neosavvy-javascript-angular-core": "0.1.4",
     "oauth.io": "*",
